@@ -1,5 +1,5 @@
 :root {
---main-color: #e9967a;
+--main-color: #3b20a9;
 --main-light: ;
 --main-dark: ;
 --text-color: ;
@@ -74,7 +74,7 @@ body {
 }
 .page-section {
 min-height: 20vh;
-border: 1px solid blue;
+border: 1px solid rgb(255, 0, 221);
 display: flex;
 
 }
@@ -87,8 +87,18 @@ display: flex;
 .content{
   width: 75%;
 }
+
+.horiseon {
+  border: 7px solid black;
+  width: 100%;
+  display: flex;
+}
+.horiseon img {
+width: 100%;
+}
+
 .row {
-  border: 1px solid black;
+  border: 7px solid black;
   width: 100%;
   display: flex;
 }
