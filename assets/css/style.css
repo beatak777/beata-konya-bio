@@ -95,6 +95,8 @@ display: flex;
 }
 .horiseon img {
 width: 100%;
+display: block;
+border: 7px solid black;
 }
 
 .row {
@@ -105,7 +107,38 @@ width: 100%;
 
 .row img {
   width: 50%;
+  display: block;
+  border: 7px solid black;
 }
+
+.description {
+  position: absolute;
+  box-sizing: border-box;
+  color: bisque;
+  background-color: #3b20a9;
+  padding: 10px;
+  width: 100%;
+  text-align: left;
+  bottom: -41%;
+  
+}
+
+/* .heading {
+  background-color: rgba(0,0,0,0.7);
+    padding: 15px;
+    height: 25px;
+    color: white;
+    font-size: 18px;
+    border-bottom: 5px solid #FF6200;
+} */
+
+/* .description {
+  position:relative
+  color: #fff;
+  padding: 10px;
+  box-sizing: border-box;
+  background-color: rgba(red, green, blue, alpha);
+} */
 /* h1,
 h2,
 h3,
@@ -134,4 +167,3 @@ nav ul {
 nav ul li {
   margin: 10px;
 } */
-
