@@ -1,10 +1,8 @@
 :root {
 --main-color: #3b20a9;
---main-light: ;
---main-dark: ;
---text-color: ;
-
-
+--fade-color: orange;
+--main-dark: purple;
+--text-color: pink;
 }
 
 * {
@@ -12,6 +10,12 @@
   padding: 5px;
   margin: 2px;
 }
+
+h1 {
+  color: var(--text-color);
+  filter: drop-shadow(3px 4px 6px purple);
+}
+
 header {
   display: flex;
   justify-content: space-between;
@@ -37,17 +41,8 @@ header nav ul {
 }
 a {
   text-decoration: none;
-  background: pink;
-  color: black;
+  color: var(--text-color)
 }
-
-/* header nav {
-  padding-top: 15px;
-  margin-right: 20px;
-  float: right;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 20px;
-} */
 
 .hero-banner {
 background-image: url('https://www.accipio.com/wp-content/uploads/2023/04/Hero_L4_A.jpg');
@@ -62,6 +57,9 @@ align-items: flex-end;
   height: 180px;
   position: relative;
   border-radius: 60px;
+  filter: drop-shadow(3px 4px 6px orange);
+  margin-left: 20px;
+  margin-top: 41px;
 } 
 
 .hero-banner div {
@@ -73,7 +71,8 @@ align-items: flex-end;
 .hero-banner h2 {
   position: relative;
   text-align: right; 
- 
+  filter: drop-shadow(2px 1px 1px pink);
+  color: var(--main-color);
 }
 
 body {
@@ -102,25 +101,16 @@ display: flex;
   width: 75%;
 }
 
-.horiseon {
+.horiseon, .row {
   width: 100%;
   display: flex;
 }
-.horiseon img {
+.horiseon img, .row img {
 width: 100%;
 display: block;
-border: 4px solid pink;
-}
-
-.row {
-  width: 100%;
-  display: flex;
-}
-
-.row img {
-  width: 100%;
-  display: block;
-  border: 4px solid pink;
+background: darkorange;
+box-shadow: pink 2px 6px 18px 1px;
+border-radius: 3px;
 }
 
 .image-container {
@@ -132,7 +122,7 @@ border: 4px solid pink;
   left: 0;
   box-sizing: border-box;
   color: bisque;
-  background-color: #3b20a9;
+  background-color: var(--main-color);
   padding: 10px;
   width: fit-content%;
   text-align: left;
@@ -141,54 +131,14 @@ border: 4px solid pink;
 } 
 
 .subtitle h2 {
-    background-color: rgb(231, 141, 141);
+    color: rgb(231, 141, 141);
     margin: 26.56px 0px;
     padding: 0px 10px 0px 0px;
-    border-radius: 19%;
+    filter: drop-shadow(3px 4px 6px purple);
   
 }
 
-/* .heading {
-  background-color: rgba(0,0,0,0.7);
-    padding: 15px;
-    height: 25px;
-    color: white;
-    font-size: 18px;
-    border-bottom: 5px solid #FF6200;
-} */
-
-/* .description {
-  position:relative
-  color: #fff;
-  padding: 10px;
-  box-sizing: border-box;
-  background-color: rgba(red, green, blue, alpha);
-} */
-/* h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  margin: 10px;
-
-} */
-
-/* p {
-  margin: 10px;
-} */
-
- /* nav {
-  display: flex;
-  margin: 0px 5%;
-  justify-content: flex-end;
-  flex-direction: row;
+p {
+  color: var(--text-color);
+  margin-left: 11px;
 }
-
-nav ul {
-  display: flex;
-}
-
-nav ul li {
-  margin: 10px;
-} */
