@@ -27,10 +27,20 @@ header nav ul {
   list-style-type: none;
   
 }
-
+.content ul {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  list-style-type: none;
+  text-align: center;
+  
+}
 a {
   text-decoration: none;
+  background: pink;
+  color: black;
 }
+
 /* header nav {
   padding-top: 15px;
   margin-right: 20px;
