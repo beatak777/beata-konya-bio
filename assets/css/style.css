@@ -9,8 +9,8 @@
 
 * {
   box-sizing: border-box;
-  padding: 0;
-  margin: 0;
+  padding: 5px;
+  margin: 2px;
 }
 header {
   display: flex;
@@ -86,14 +86,16 @@ body {
 }
 .page-section {
 min-height: 20vh;
-border: 1px solid rgb(255, 0, 221);
 display: flex;
 
 }
 .page-section .subtitle {
   width: 25%;
-  border-right: 3px solid black;
+  border-right: 3px solid pink;
   text-align: center;
+  padding-right: 42px;
+  border-end-end-radius: 30px;
+  border-top-right-radius: 30px;
 }
 
 .content{
@@ -101,18 +103,16 @@ display: flex;
 }
 
 .horiseon {
-  border: 7px solid black;
   width: 100%;
   display: flex;
 }
 .horiseon img {
 width: 100%;
 display: block;
-border: 4px solid black;
+border: 4px solid pink;
 }
 
 .row {
-  border: 1px solid black;
   width: 100%;
   display: flex;
 }
@@ -120,7 +120,7 @@ border: 4px solid black;
 .row img {
   width: 100%;
   display: block;
-  border: 7px solid black;
+  border: 4px solid pink;
 }
 
 .image-container {
@@ -134,7 +134,7 @@ border: 4px solid black;
   color: bisque;
   background-color: #3b20a9;
   padding: 10px;
-  width: 100%;
+  width: fit-content%;
   text-align: left;
   border: 3px solid rgb(231, 141, 141);
   border-radius: 10px;
@@ -142,7 +142,9 @@ border: 4px solid black;
 
 .subtitle h2 {
     background-color: rgb(231, 141, 141);
-    text-align: center;
+    margin: 26.56px 0px;
+    padding: 0px 10px 0px 0px;
+    border-radius: 19%;
   
 }
 
