@@ -1,8 +1,8 @@
 :root {
---main-color: #3b20a9;
---fade-color: orange;
---main-dark: purple;
---text-color: pink;
+  --main-color: #3b20a9;
+  --fade-color: orange;
+  --main-dark: purple;
+  --text-color: pink;
 }
 
 * {
@@ -13,7 +13,7 @@
 
 h1 {
   color: var(--text-color);
-  filter: drop-shadow(3px 4px 6px purple);
+  filter: drop-shadow(3px 4px 6px var(--main-dark));
 }
 
 header {
@@ -21,46 +21,50 @@ header {
   justify-content: space-between;
 
 }
+
 header nav {
-width: 50%;
+  width: 50%;
 }
+
 header nav ul {
   display: flex;
   width: 100%;
   justify-content: space-around;
   list-style-type: none;
-  
+
 }
+
 .content ul {
   display: flex;
   width: 100%;
   justify-content: space-around;
   list-style-type: none;
   align-items: center;
-  
+
 }
+
 a {
   text-decoration: none;
   color: var(--text-color)
 }
 
 .hero-banner {
-background-image: url('https://www.accipio.com/wp-content/uploads/2023/04/Hero_L4_A.jpg');
-background-repeat: no-repeat;
-background-size: cover;
-height: fit-content;
-justify-content: flex-end;
-align-items: flex-end;
+  background-image: url('https://www.accipio.com/wp-content/uploads/2023/04/Hero_L4_A.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: fit-content;
+  justify-content: flex-end;
+  align-items: flex-end;
 }
 
 .hero-banner img {
   height: 180px;
   position: relative;
   border-radius: 60px;
-  filter: drop-shadow(3px 4px 6px orange);
+  filter: drop-shadow(3px 4px 6px var(--fade-color));
   margin-left: 20px;
   margin-top: 41px;
-} 
+}
 
 .hero-banner div {
   position: relative;
@@ -70,8 +74,8 @@ align-items: flex-end;
 
 .hero-banner h2 {
   position: relative;
-  text-align: right; 
-  filter: drop-shadow(2px 1px 1px pink);
+  text-align: right;
+  filter: drop-shadow(2px 1px 1px var(--text-color));
   color: var(--main-color);
 }
 
@@ -81,42 +85,48 @@ body {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   line-height: 1.5;
   background-color: var(--main-color);
-  
-}
-.page-section {
-min-height: 20vh;
-display: flex;
 
 }
+
+.page-section {
+  min-height: 20vh;
+  display: flex;
+
+}
+
 .page-section .subtitle {
   width: 23%;
   text-align: center;
   padding-right: 42px;
-  
+
 }
 
-.content{
+.content {
   width: 75%;
   border-left: 3px solid var(--text-color);
   margin-left: 3vw;
   padding: 0 3vw;
 }
 
-.horiseon, .row {
+.horiseon,
+.row {
   width: 100%;
   display: flex;
 }
-.horiseon img, .row img {
-width: 100%;
-display: block;
-background: darkorange;
-box-shadow: pink 2px 6px 18px 1px;
-border-radius: 3px;
+
+.horiseon img,
+.row img {
+  width: 100%;
+  display: block;
+  background: darkorange;
+  box-shadow: var(--text-color) 2px 6px 18px 1px;
+  border-radius: 3px;
 }
 
 .image-container {
   position: relative;
 }
+
 .description {
   position: absolute;
   bottom: 0;
@@ -129,14 +139,14 @@ border-radius: 3px;
   text-align: left;
   border: 3px solid rgb(231, 141, 141);
   border-radius: 10px;
-} 
+}
 
 .subtitle h2 {
-    color: rgb(231, 141, 141);
-    margin: 26.56px 0px;
-    padding: 0px 10px 0px 0px;
-    filter: drop-shadow(3px 4px 6px purple);
-  
+  color: rgb(231, 141, 141);
+  margin: 26.56px 0px;
+  padding: 0px 10px 0px 0px;
+  filter: drop-shadow(3px 4px 6px var(--main-dark));
+
 }
 
 p {
@@ -144,8 +154,7 @@ p {
   margin-left: 11px;
 }
 
-@media screen and (max-width: 1000px) {
-}
+@media screen and (max-width: 1000px) {}
 
 @media only screen and (max-width: 768px) {
   header {
@@ -153,79 +162,91 @@ p {
     justify-content: space-between;
     padding: 10px;
     flex-direction: column;
-  
+
   }
+
   header nav {
-  width: 100%;
+    width: 100%;
   }
+
   header nav ul {
     display: flex;
     flex-direction: row;
     text-align: center;
-    
+
   }
+
   h1 {
     text-align: center;
   }
-  
+
   .hero-banner {
     height: fit-content;
     display: flex;
-    }
-    
-    .hero-banner img {
-      height: 150px;
-      position:relative;
-    } 
-    
-    .hero-banner div {
-      position: relative;
-      bottom: 15px;
-    
-    }
-    
-    .hero-banner h2 {
-      position: relative;
-      text-align: center; 
-    }
-    .page-section {
-      min-height: 20vh;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      padding: 5px;
-      
-      }
-      .subtitle {
-        width: auto;
-      }
-      .subtitle h2 {
-        display: flex;
-      }
-    #portfolio-content {
-      display: flex;
-    }
-    p {
-      text-align: center;
-      margin: 2px;
-      padding: 1px;
-    }
-    p.description {
-      position: relative;
-      
-    }
-    #contact-me.content {
-      display: flex;
-      flex-direction: row;
-      width: 90%;
-    }
-    .content {
-      border-left: none;
-      width: 100%;
-    }
-    .content ul {
-      display: flex;
-      flex-direction: column;
-
-    }
   }
+
+  .hero-banner img {
+    height: 150px;
+    position: relative;
+  }
+
+  .hero-banner div {
+    position: relative;
+    bottom: 15px;
+
+  }
+
+  .hero-banner h2 {
+    position: relative;
+    text-align: center;
+  }
+
+  .page-section {
+    min-height: 20vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px;
+
+  }
+
+  .subtitle {
+    width: auto;
+  }
+
+  .subtitle h2 {
+    display: flex;
+  }
+
+  #portfolio-content {
+    display: flex;
+  }
+
+  p {
+    text-align: center;
+    margin: 2px;
+    padding: 1px;
+  }
+
+  p.description {
+    position: relative;
+
+  }
+
+  #contact-me.content {
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+  }
+
+  .content {
+    border-left: none;
+    width: 100%;
+  }
+
+  .content ul {
+    display: flex;
+    flex-direction: column;
+
+  }
+}
