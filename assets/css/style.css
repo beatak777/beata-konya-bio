@@ -89,7 +89,7 @@ display: flex;
 
 }
 .page-section .subtitle {
-  width: 25%;
+  width: 29%;
   border-right: 3px solid pink;
   text-align: center;
   padding-right: 42px;
@@ -124,7 +124,7 @@ border-radius: 3px;
   color: bisque;
   background-color: var(--main-color);
   padding: 10px;
-  width: fit-content%;
+  width: fit-content;
   text-align: left;
   border: 3px solid rgb(231, 141, 141);
   border-radius: 10px;
@@ -142,3 +142,80 @@ p {
   color: var(--text-color);
   margin-left: 11px;
 }
+
+@media screen and (max-width: 1000px) {
+}
+
+@media only screen and (max-width: 768px) {
+  header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    flex-direction: column;
+  
+  }
+  header nav {
+  width: 100%;
+  }
+  header nav ul {
+    display: flex;
+    flex-direction: row;
+    
+  }
+
+  .hero-banner {
+    height: fit-content;
+    display: flex;
+    }
+    
+    .hero-banner img {
+      height: 150px;
+      position:relative;
+    } 
+    
+    .hero-banner div {
+      position: relative;
+      bottom: 15px;
+    
+    }
+    
+    .hero-banner h2 {
+      position: relative;
+      text-align: center; 
+    }
+    
+    .page-section {
+      min-height: 20vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 5px;
+      
+      }
+
+      .subtitle {
+        width: auto;
+      }
+      .subtitle h2 {
+        text-align:center;
+
+      }
+    #portfolio-content {
+      display: flex;
+    }
+
+    p.description {
+      position: relative;
+    }
+    #contact-me.content {
+      display: flex;
+      flex-direction: row;
+      width: 90%;
+    }
+    
+    .content ul {
+      display: flex;
+      flex-direction: column;
+
+    }
+  }
