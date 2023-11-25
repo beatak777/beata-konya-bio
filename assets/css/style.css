@@ -160,9 +160,13 @@ p {
   header nav ul {
     display: flex;
     flex-direction: row;
+    text-align: center;
     
   }
-
+  h1 {
+    text-align: center;
+  }
+  
   .hero-banner {
     height: fit-content;
     display: flex;
@@ -198,14 +202,20 @@ p {
       }
       .subtitle h2 {
         text-align:center;
+        border-right: none;
 
       }
     #portfolio-content {
       display: flex;
     }
-
+    p {
+      text-align: center;
+      margin: 2px;
+      padding: 1px;
+    }
     p.description {
       position: relative;
+      
     }
     #contact-me.content {
       display: flex;
