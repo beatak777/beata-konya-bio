@@ -36,7 +36,7 @@ header nav ul {
   width: 100%;
   justify-content: space-around;
   list-style-type: none;
-  text-align: center;
+  align-items: center;
   
 }
 a {
@@ -89,16 +89,17 @@ display: flex;
 
 }
 .page-section .subtitle {
-  width: 29%;
-  border-right: 3px solid pink;
+  width: 23%;
   text-align: center;
   padding-right: 42px;
-  border-end-end-radius: 30px;
-  border-top-right-radius: 30px;
+  
 }
 
 .content{
   width: 75%;
+  border-left: 3px solid var(--text-color);
+  margin-left: 3vw;
+  padding: 0 3vw;
 }
 
 .horiseon, .row {
@@ -187,7 +188,6 @@ p {
       position: relative;
       text-align: center; 
     }
-    
     .page-section {
       min-height: 20vh;
       display: flex;
@@ -196,14 +196,11 @@ p {
       padding: 5px;
       
       }
-
       .subtitle {
         width: auto;
       }
       .subtitle h2 {
-        text-align:center;
-        border-right: none;
-
+        display: flex;
       }
     #portfolio-content {
       display: flex;
@@ -222,7 +219,10 @@ p {
       flex-direction: row;
       width: 90%;
     }
-    
+    .content {
+      border-left: none;
+      width: 100%;
+    }
     .content ul {
       display: flex;
       flex-direction: column;
