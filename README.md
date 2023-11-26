@@ -3,15 +3,24 @@
 
 # <a name='Description'></a>Description
 
-Beata Konya's Bio Page showcases a header with her name and a navigation bar. 
+Beata Konya's Bio Page showcases the programming and desing skills that I have utilised throughout the first and the second week of my bootcamp with EdX. The Portfolio will be updated during the full course of the bootcamp and it will act as a resume to showcase my talent. 
 
 ## <a name='TableofContents'></a>Table of Contents
 
 
+<!-- vscode-markdown-toc -->
+*  [Deployed Page](#DeployedPage)
+*  [Installation](#Installation)
+*  [Credits](#Credits)
+*  [License](#License)
+
+<!-- vscode-markdown-toc-config
+	numbering=true
+	autoSave=true
+	/vscode-markdown-toc-config -->
+<!-- /vscode-markdown-toc -->
+
 ## <a name='DeployedPage'></a>Deployed Page
-
-
-## <a name='RefactorComments'></a>Refactor Comments
 
 ## <a name='Installation'></a>Installation
 
