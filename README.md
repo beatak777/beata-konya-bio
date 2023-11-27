@@ -26,6 +26,10 @@ Beata Konya's Bio Page showcases the programming and desing skills that I have u
 
 ## <a name='Credits'></a>Credits
 
+- Default files provided by [edX Bootcamp](https://www.edx.org/course/skills-bootcamp-in-front-end-web-development).
+
+- 
+
 ## <a name='License'></a>License
 
 Please refer to the LICENSE in the repo.
