@@ -23,11 +23,11 @@ Beata Konya's Bio Page showcases the programming and desing skills that I have u
 
 ## <a name='DeployedPage'></a>Deployed Page
 
-Deployed Page Screenshot Browser View
+[Link to Deployed Github Page](https://beatak777.github.io/beata-konya-bio/)
 
-Deployed Page Screenshot Mobile Compatible View
+![Deployed Page Screenshot Browser View](images/browserscreenshot.png)
 
-Deployed Github Page 
+![Deployed Page Screenshot Mobile Compatible View](images/mobilecompatiblescreenshot.png)
 
 ## <a name='Installation'></a>Installation
 
@@ -43,11 +43,15 @@ Use as a standard portfolio landing page. The links will open in new tabs. Pleas
 
 - Page created by [Bea Konya](https://github.com/beatak777).
 
-- Additional guidance at the beginning of coding received from Bootcamp Tutor Corey Yates.
+- Additional guidance at the beginning of coding received from Bootcamp Tutor Corey Yates, who helped me with the basic layout of the page and helped me debug my code from an error that hid my navbar.
 
 - Table of Contents was Created with the Visual Studio Code Extension 'Markdown TOC' available [here](https://marketplace.visualstudio.com/items?itemName=dumeng.markdown-toc).
 
-- Special thanks to Youtube User [name] (link).
+- Special thanks to Youtube User [Code with Palash](https://www.youtube.com/watch?v=rYX7uljSRyE) who helped with his video in order to add some extra desing to the page.
+
+- Special thanks to Youtube User [Web Dev Simplied](https://www.youtube.com/watch?v=yU7jJ3NbPdA&t=194s) for tutorial video about media queries.
+
+- Special thanks for the Github and Linkedin logos from [Icons8](https://icons8.com/icons).
 
 ## <a name='License'></a>License
 

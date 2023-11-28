@@ -96,7 +96,7 @@ body {
 }
 
 .page-section .subtitle {
-  width: 23%;
+  width: 30%;
   text-align: center;
   padding-right: 11px;
   padding-left: 11px;
@@ -104,7 +104,7 @@ body {
 }
 
 .content {
-  width: 75%;
+  width: 70%;
   border-left: 3px solid var(--text-color);
   margin-left: 1vw;
   padding: 0 3vw;
