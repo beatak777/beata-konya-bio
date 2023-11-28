@@ -11,6 +11,7 @@ Beata Konya's Bio Page showcases the programming and desing skills that I have u
 <!-- vscode-markdown-toc -->
 *  [Deployed Page](#DeployedPage)
 *  [Installation](#Installation)
+*  [Usage](#Usage)
 *  [Credits](#Credits)
 *  [License](#License)
 
@@ -22,13 +23,31 @@ Beata Konya's Bio Page showcases the programming and desing skills that I have u
 
 ## <a name='DeployedPage'></a>Deployed Page
 
+Deployed Page Screenshot Browser View
+
+Deployed Page Screenshot Mobile Compatible View
+
+Deployed Github Page 
+
 ## <a name='Installation'></a>Installation
+
+No Installation necessary. 
+
+## <a name='Usage'></a>Usage
+
+Use as a standard portfolio landing page. The links will open in new tabs. Please do change the details that are currently presented on the site, if decided to use the page.
 
 ## <a name='Credits'></a>Credits
 
-- Default files provided by [edX Bootcamp](https://www.edx.org/course/skills-bootcamp-in-front-end-web-development).
+- Study materials provided by [edX Bootcamp](https://www.edx.org/course/skills-bootcamp-in-front-end-web-development).
 
-- 
+- Page created by [Bea Konya](https://github.com/beatak777).
+
+- Additional guidance at the beginning of coding received from Bootcamp Tutor Corey Yates.
+
+- Table of Contents was Created with the Visual Studio Code Extension 'Markdown TOC' available [here](https://marketplace.visualstudio.com/items?itemName=dumeng.markdown-toc).
+
+- Special thanks to Youtube User [name] (link).
 
 ## <a name='License'></a>License
 
