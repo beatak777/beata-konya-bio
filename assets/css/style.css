@@ -235,6 +235,7 @@ p {
   p.description {
     position: absolute;
     left: 6px;
+    padding: 4px;
 
   }
 
