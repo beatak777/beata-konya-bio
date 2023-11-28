@@ -35,7 +35,8 @@ No Installation necessary.
 
 ## <a name='Usage'></a>Usage
 
-Use as a standard portfolio landing page. The links will open in new tabs. Please do change the details that are currently presented on the site, if decided to use the page.
+Use as a standard portfolio landing page. The navigation bar seamlessly connects users to the main sections of the page, and it also provides a link to a resume, which opens in a new tab for convenience. The image containers on the page are clickable, opening in new tabs to showcase projects or work samples.
+The contact section is interactive, utilizing links for smooth navigation. Each image on the page comes with a detailed description, enhancing the user experience. Additionally, the page is optimized for mobile browsers, ensuring a responsive and user-friendly display across various devices. Feel free to customize the content on the site to best represent your skills and achievements.
 
 ## <a name='Credits'></a>Credits
 
