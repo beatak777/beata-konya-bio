@@ -127,7 +127,33 @@ body {
 
 .image-container {
   position: relative;
+  overflow: hidden;
 }
+
+.image-container img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.image-overlay {
+  position:absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  opacity: 0; /* Hiiden by default */
+  transition: opacity 0.3s ease; /* Smooth transition */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-container:hover .image-overlay {
+  opacity: 1;
+}
+
 /* description of images */
 .description {
   position: absolute;
