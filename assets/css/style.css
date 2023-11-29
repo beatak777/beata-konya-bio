@@ -252,6 +252,13 @@ p {
     display: flex;
   }
 
+  .image-container:hover .image-overlay {
+    opacity: 1;
+  }
+  
+  .image-overlay {
+    background: rgba(0, 0, 0, 0.7); 
+  }
   p {
     text-align: center;
     margin: 2px;
